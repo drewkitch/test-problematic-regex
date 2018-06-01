@@ -1,2 +1,4 @@
 app:
-  image: ubuntu
+  build:
+    image: test-problematic-regex
+    dockerfile: Dockerfile
